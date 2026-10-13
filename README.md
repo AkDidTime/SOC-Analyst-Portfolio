@@ -178,6 +178,78 @@ The investigation demonstrated how **Windows authentication logs can be used to 
 
 ---
 
+### Brute Force Investigation
+
+Performed a hands-on authentication investigation using **Windows Security Event Logs**, Event Viewer, and PowerShell to examine controlled failed logon attempts and investigate patterns that could be relevant to brute-force detection.
+
+The investigation focused on:
+
+- Analysing **Event ID 4625 — Failed Logon**
+- Examining **Status `0xC000006D`** and **Substatus `0xC000006A`** to investigate incorrect-password failures
+- Creating a local test account to generate controlled authentication events
+- Extracting account, logon type, process, and source address information
+- Using PowerShell to filter and correlate failed logon events
+- Building an authentication timeline and calculating intervals between event records
+- Assessing the activity in the context of the controlled test
+- Documenting investigation findings and potential detection opportunities
+
+### Key Findings
+
+The controlled test generated multiple **Event ID 4625 — Failed Logon** records for the local account `SOC-LabUser`. Three records were observed within approximately 1.59 seconds, with status codes consistent with an incorrect-password failure.
+
+The events recorded **Logon Type 2 (Interactive)**, `svchost.exe` as the caller process, and `127.0.0.1` as the source address, consistent with the local authentication test.
+
+The results demonstrated how closely timed failed logon events can be identified and analysed using Windows Security logs and PowerShell. However, the records followed a single deliberate incorrect-password test and do not establish three independent attempts or confirm a real brute-force attack.
+
+The investigation demonstrated how **authentication event analysis, timeline reconstruction, and event correlation can support the investigation of suspicious logon patterns and potential brute-force activity**.
+
+### Tools Used
+
+- Windows Security Event Logs
+- Windows Event Viewer
+- Windows PowerShell
+- Local Windows user accounts
+
+> A detailed investigation report and supporting evidence will be maintained in the portfolio.
+
+---
+
+### Phishing Investigation
+
+Performed a hands-on phishing investigation using **PhishTool** and **VirusTotal** to analyse suspicious emails, investigate sender information, and assess potentially malicious attachments and URLs.
+
+The investigation focused on:
+
+- Analysing suspicious email samples using PhishTool
+- Examining sender addresses, display names, Reply-To and Return-Path fields
+- Reviewing available SPF, DKIM and DMARC authentication information
+- Investigating suspicious URLs and contacted domains
+- Analysing a Coinbase-themed email containing a DOCX attachment
+- Checking the attachment for macros and calculating file hashes
+- Using VirusTotal to assess the attachment against multiple security vendors
+- Identifying phishing indicators and documenting investigation findings
+
+### Key Findings
+
+The Coinbase-themed email contained inconsistencies between its displayed sender identity and the actual sender address. The message included a DOCX attachment named `Coinbase -15392.docx`, which was 17.21 KB in size.
+
+The document contained no macros, but its SHA-256 hash was submitted to VirusTotal for analysis. The result showed **22 out of 65 security vendors detecting the file**, with detections including phishing and Trojan-related classifications.
+
+The analysis also identified a contacted `lnkd.in` URL and other contacted domains requiring investigation. These observations provided additional context for assessing the email and its attachment.
+
+The investigation demonstrated how **email header analysis, URL investigation, file hashing and multi-engine malware scanning can be combined to assess suspicious messages and identify potential phishing indicators**.
+
+### Tools Used
+
+- PhishTool
+- VirusTotal
+- Email header analysis
+- File hash analysis
+
+> The investigation findings and supporting evidence will be documented in the portfolio. Vendor detections are treated as evidence for assessment rather than proof of malicious behaviour in isolation.
+
+---
+
 # 🚧 Projects In Progress
 
 ## SOC Home Lab
@@ -196,45 +268,6 @@ The lab is focused on:
 
 ---
 
-## Brute Force Detection
-
-Building a detection and investigation workflow for repeated authentication failures.
-
-The project focuses on:
-
-* Identifying suspicious login patterns
-* Analysing Windows authentication logs
-* Investigating source IP addresses
-* Identifying affected accounts
-* Establishing attack timelines
-* Analysing authentication frequency and patterns
-* Determining scope and potential impact
-* Mapping activity to **MITRE ATT&CK**
-* Documenting investigation findings
-* Developing detection logic
-
----
-
-## Phishing Investigation
-
-Developing an investigation workflow for analysing suspicious emails and identifying potential indicators of compromise.
-
-Areas of investigation include:
-
-* Email headers
-* Sender information
-* URLs and domains
-* Attachments
-* Indicators of compromise
-* User interaction
-* Potential endpoint activity
-* Scope and impact
-* Recommended containment
-* Recommended remediation
-
-The objective is to develop a structured approach to investigating phishing activity from the initial alert through to containment and remediation recommendations.
-
----
 
 ## Threat Hunting Lab
 
