@@ -177,6 +177,8 @@ The investigation demonstrated how **Windows authentication logs can be used to 
 * Windows PowerShell
 * Windows Event Viewer
 
+> [Click here to view detailed report](./Investigations/Windows-Event-Log-Investigation/README.md)
+
 ---
 
 ### Brute Force Investigation
@@ -211,7 +213,7 @@ The investigation demonstrated how **authentication event analysis, timeline rec
 - Windows PowerShell
 - Local Windows user accounts
 
-> A detailed investigation report and supporting evidence will be maintained in the portfolio.
+> [Click here to view detailed report](./Investigations/Brute-Force-Investigation/README.md)
 
 ---
 
@@ -248,6 +250,7 @@ The investigation demonstrated how **email header analysis, URL investigation, f
 - File hash analysis
 
 > The investigation findings and supporting evidence will be documented in the portfolio. Vendor detections are treated as evidence for assessment rather than proof of malicious behaviour in isolation.
+> > [Click here to view detailed report](./Investigations/Phishing-Email-Attachment-Analysis/README.md)
 
 ---
 
