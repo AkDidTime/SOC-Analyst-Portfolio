@@ -100,6 +100,7 @@ I'm continuing to expand this toolkit through hands-on labs, investigations, and
 # 📂 Cybersecurity Portfolio
 
 This portfolio is organised around practical investigations and security projects.
+More details on individual projects can be found here (/investigations)
 
 ## 🔎 Completed Investigations
 
