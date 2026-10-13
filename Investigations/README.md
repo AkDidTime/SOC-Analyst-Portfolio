@@ -8,9 +8,9 @@ Each investigation documents the evidence collected, the analysis performed, the
 
 | Investigation                                                                          | Status         | Focus                                                                                     |
 | -------------------------------------------------------------------------------------- | -------------- | ----------------------------------------------------------------------------------------- |
-| [Sysmon Process Investigation](./sysmon-process-investigation/README.md)               | ✅ Completed    | Process creation, parent-child relationships, PowerShell activity, and endpoint telemetry |
-| [Windows Event Log Investigation](./windows-event-log-investigation/README.md)         | 🚧 In Progress | Windows security events and authentication activity                                       |
+| [Sysmon Process Investigation](./Sysmon-Process-Investigation/README.md)               | ✅ Completed    | Process creation, parent-child relationships, PowerShell activity, and endpoint telemetry |
+| [Windows Event Log Investigation](./Windows-Event-Log-Investigation/README.md)         | ✅ Completed | Windows security events and authentication activity                                       |
 | Brute Force Investigation                                                              | 🚧 Planned     | Failed logons, authentication patterns, and potential brute-force activity                |
-| [Phishing Email & Attachment Analysis](./phishing-email-attachment-analysis/README.md) | ✅ Completed    | Email headers, attachment analysis, VirusTotal detections, URLs, and network activity     |
+| [Phishing Email & Attachment Analysis](./Phishing-Email-Attachment-Analysis/README.md) | ✅ Completed    | Email headers, attachment analysis, VirusTotal detections, URLs, and network activity     |
 
 Last investigation update: October 2026
