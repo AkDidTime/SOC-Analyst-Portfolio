@@ -1,26 +1,16 @@
 # 🔎 Security Investigations
 
-This directory contains hands-on security investigations documenting the analysis of security events, endpoint telemetry, authentication activity, and potential indicators of compromise.
+This directory contains hands-on security investigations covering endpoint activity, Windows security events, authentication attempts, and phishing-related indicators.
 
-Each investigation is structured around an evidence-based workflow:
-
-- Alert / Initial Observation
-- Evidence Collection
-- Log & Telemetry Analysis
-- Investigation
-- Scope & Impact
-- MITRE ATT&CK Mapping
-- Findings
-- Conclusion
-- Recommended Actions
+Each investigation documents the evidence collected, the analysis performed, the findings, and any recommended actions.
 
 ## Investigations
 
-| Investigation | Status | Focus |
-|---|---|---|
-| Sysmon Process Investigation | ✅ Completed | Process creation, parent-child relationships, PowerShell activity, endpoint telemetry|
-| Windows Event Log Investigation | 🚧 In Progress | Windows security events and authentication |
-| Brute Force Investigation | 🚧 Planned | Authentication failures and attack patterns |
-| Phishing Investigation | 🚧 Planned | Email analysis and indicators of compromise |
+| Investigation                                                                          | Status         | Focus                                                                                     |
+| -------------------------------------------------------------------------------------- | -------------- | ----------------------------------------------------------------------------------------- |
+| [Sysmon Process Investigation](./sysmon-process-investigation/README.md)               | ✅ Completed    | Process creation, parent-child relationships, PowerShell activity, and endpoint telemetry |
+| [Windows Event Log Investigation](./windows-event-log-investigation/README.md)         | 🚧 In Progress | Windows security events and authentication activity                                       |
+| Brute Force Investigation                                                              | 🚧 Planned     | Failed logons, authentication patterns, and potential brute-force activity                |
+| [Phishing Email & Attachment Analysis](./phishing-email-attachment-analysis/README.md) | ✅ Completed    | Email headers, attachment analysis, VirusTotal detections, URLs, and network activity     |
 
-Last investigation update - October 2026
+Last investigation update: October 2026
