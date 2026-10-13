@@ -13,4 +13,5 @@ Each investigation documents the evidence collected, the analysis performed, the
 | [Brute Force Investigation](./Brute-Force-Investigation/README.md)                                                              | ✅ Completed     | Failed logons, authentication patterns, and potential brute-force activity                |
 | [Phishing Email & Attachment Analysis](./Phishing-Email-Attachment-Analysis/README.md) | ✅ Completed    | Email headers, attachment analysis, VirusTotal detections, URLs, and network activity     |
 
-Last investigation update: October 2026
+> Last investigation update: October 2026
+> > [Click here to return to main landing page](../README.md)
