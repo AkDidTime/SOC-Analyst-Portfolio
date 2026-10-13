@@ -144,7 +144,7 @@ The investigation demonstrated how **process relationships and endpoint telemetr
 * PowerShell
 * Windows Event Logs
 
-> A detailed investigation report will be added to the portfolio as the project structure develops.
+> [Click here to view detailed report](./Investigations/Sysmon-Process-Investigation/README.md)
 
 ---
 
