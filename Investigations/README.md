@@ -12,6 +12,8 @@ Each investigation documents the evidence collected, the analysis performed, the
 | [Windows Event Log Investigation](./Windows-Event-Log-Investigation/README.md)         | ✅ Completed | Windows security events and authentication activity                                       |
 | [Brute Force Investigation](./Brute-Force-Investigation/README.md)                                                              | ✅ Completed     | Failed logons, authentication patterns, and potential brute-force activity                |
 | [Phishing Email & Attachment Analysis](./Phishing-Email-Attachment-Analysis/README.md) | ✅ Completed    | Email headers, attachment analysis, VirusTotal detections, URLs, and network activity     |
+| [Linux Authentication Log Investigation](./Linux-Authentication-Log-Investigation/README.md)  | ✅ Completed |  Linux authentication logs, login history, failed-login checks, system journal, and SSH status |
+|[Splunk SIEM Investigation](./Splunk-SIEM-Investigation/README.md)                      | 🚧 In Progress | SIEM data ingestion, log analysis, detection searches, and security event investigation   |
 
 > Last investigation update: October 2026
 > > [Click here to return to main landing page](../README.md)
