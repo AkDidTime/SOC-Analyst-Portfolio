@@ -29,7 +29,7 @@ The aim was to gain practical experience with SIEM deployment, log analysis, det
 | Operating System | Windows 10 |
 | SIEM Platform | Elastic Security |
 | Deployment | Elastic Cloud |
-| Data Collection | Elastic Agent 9.5.6 |
+| Data Collection | Elastic Agent |
 | Integrations | Windows and System |
 | Log Source | Windows Security Event Log |
 | Detection Language | ES\|QL |
@@ -93,7 +93,7 @@ The investigation identified four Event ID 4625 records for this account on the 
 
 The events occurred in two separate pairs:
 
-| Time (4 November 2026) | Event ID | Account |
+| Time | Event ID | Account |
 |---|---:|---|
 | 15:35:06 | 4625 | SOC-LabUser |
 | 15:35:09 | 4625 | SOC-LabUser |
@@ -112,7 +112,6 @@ The earlier failed logon records contained the following details:
 | SubStatus | 0xC000006A |
 | Process | svchost.exe |
 | Source Address | 127.0.0.1 |
-| Workstation | DESKTOP-FE01E2H |
 | Authentication Package | Negotiate |
 
 The status and substatus indicated an unsuccessful authentication attempt involving an incorrect password.
@@ -186,14 +185,14 @@ The rule was enabled and scheduled to run automatically.
 
 ## Alert Generation and Investigation
 
-The detection rule successfully generated an alert on 4 November 2026 at approximately 16:15.
+The detection rule successfully generated an alert at approximately 16:15.
 
 The alert contained the following information:
 
 | Field | Value |
 |---|---|
 | Rule | Multiple Failed Windows Logons - SOC Lab |
-| Host | desktop-fe01e2h |
+| Host | SOC-LAB-WINDOWS01 |
 | User | SOC-LabUser |
 | Failed Logons | 2 |
 | Severity | Medium |
@@ -202,9 +201,9 @@ The alert contained the following information:
 
 I initially noticed that the alert was generated approximately 40 minutes after the first two failed logon events. To investigate this, I reviewed the rule execution history and searched Discover for additional failed logons.
 
-This identified another pair of failed logon events at approximately 16:14:03 and 16:14:05.
+This identified another pair of failed logon events at approximately 16:14.
 
-These events occurred shortly before the rule executed at 16:15:04.
+These events occurred shortly before the rule executed at 16:15.
 
 The rule's query considered events from the previous five minutes. The original events from 15:35 were outside this window, whereas the two events from 16:14 were inside it.
 
@@ -212,7 +211,7 @@ This explains why the alert was generated at 16:15 rather than immediately after
 
 The rule execution history also confirmed that the 16:15 execution succeeded and created one alert.
 
-The alert reported two failed logons for `SOC-LabUser` on the same host, matching the expected detection result.
+The alert reported two failed logons for the test account on the same host, matching the expected detection result.
 
 **Evidence:**
 - `Elastic-Multiple-Failed-Logons-Alert-Overview.png`
@@ -234,7 +233,7 @@ The activity was generated as part of a controlled lab exercise. The alert demon
 
 - Monitor repeated failed authentication attempts, particularly when they involve the same account or endpoint.
 - Investigate unusual authentication patterns and review the associated Windows security events.
-- Consider account lockout policies and appropriate authentication controls to reduce the risk of password-guessing attacks.
+- Consider account lockout policies and appropriate authentication controls to reduce the risk of password-guessing attempts.
 - Continue reviewing successful logons alongside failed attempts to establish a clearer picture of account activity.
 - Tune detection thresholds to reduce false positives while maintaining useful detection coverage.
 
