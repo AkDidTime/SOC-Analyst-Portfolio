@@ -16,10 +16,10 @@ I'm now building on this foundation through hands-on cybersecurity labs, securit
 
 **Pearson**
 
-* Completed a 2-year T Level programme
-* Completed 2 years of industry placement as part of the qualification
-* Developed practical technical, problem-solving, and professional skills
-* Gained real-world experience working within a professional IT environment
+- Completed a 2-year T Level programme
+- Completed 2 years of industry placement as part of the qualification
+- Developed practical technical, problem-solving, and professional skills
+- Gained real-world experience working within a professional IT environment
 
 ---
 
@@ -33,13 +33,13 @@ A key area of my experience was **endpoint patch management and remediation**.
 
 ### Patch Management & Remediation
 
-* Used **ConnectWise Manage** to monitor endpoints and identify machines with failed patch deployments
-* Used **ConnectWise Automate** to locate and remotely access affected machines
-* Investigated failed patch deployments and troubleshot endpoint issues
-* Used **PowerShell** to manually download and apply Microsoft updates using their KB IDs
-* Recorded patches that repeatedly failed across multiple machines
-* Documented recurring patch failures, including patch names and KB IDs
-* Investigated patterns in recurring endpoint issues to support troubleshooting and remediation
+- Used **ConnectWise Manage** to monitor endpoints and identify machines with failed patch deployments
+- Used **ConnectWise Automate** to locate and remotely access affected machines
+- Investigated failed patch deployments and troubleshot endpoint issues
+- Used **PowerShell** to manually download and apply Microsoft updates using their KB IDs
+- Recorded patches that repeatedly failed across multiple machines
+- Documented recurring patch failures, including patch names and KB IDs
+- Investigated patterns in recurring endpoint issues to support troubleshooting and remediation
 
 This experience developed my practical skills in:
 
@@ -51,20 +51,20 @@ These skills have provided a strong technical foundation that I'm now applying t
 
 ## 🔐 Cybersecurity Focus
 
-I'm currently developing practical skills across:
+I'm developing practical skills across:
 
-* Security Operations (SOC)
-* SIEM & Log Analysis
-* Security Monitoring
-* Threat Detection
-* Incident Response
-* Threat Hunting
-* Windows Security
-* Linux Security
-* Network Security
-* Security Automation
-* MITRE ATT&CK
-* Digital Forensics Fundamentals
+- Security Operations (SOC)
+- SIEM & Log Analysis
+- Security Monitoring
+- Threat Detection
+- Incident Response
+- Threat Hunting
+- Windows Security
+- Linux Security
+- Network Security
+- Security Automation
+- MITRE ATT&CK
+- Digital Forensics Fundamentals
 
 My goal is to develop the ability to investigate security events from **initial detection through evidence collection, analysis, scoping, documentation, and recommended remediation**.
 
@@ -74,24 +74,25 @@ My goal is to develop the ability to investigate security events from **initial 
 
 ### Professional / Industry Experience
 
-* **ConnectWise Manage**
-* **ConnectWise Automate**
-* **PowerShell**
-* **Windows**
-* Endpoint Management
-* Remote Administration
+- **ConnectWise Manage**
+- **ConnectWise Automate**
+- **PowerShell**
+- **Windows**
+- Endpoint Management
+- Remote Administration
 
-### Cybersecurity Labs & Development
+### Cybersecurity Labs & Projects
 
-(not completed yet)
-* **Wazuh**
-* **Splunk**
-* **Sysmon**
-* **Wireshark**
-* **Linux**
-* **Git & GitHub**
-  
-* **Python**
+- **Elastic Security**
+- **Elastic Agent**
+- **Elastic Fleet**
+- **ES|QL**
+- **Sysmon**
+- **Windows Security Event Logs**
+- **Linux Mint**
+- **PhishTool**
+- **VirusTotal**
+- **Git & GitHub**
 
 I'm continuing to expand this toolkit through hands-on labs, investigations, and security-focused projects.
 
@@ -100,6 +101,7 @@ I'm continuing to expand this toolkit through hands-on labs, investigations, and
 # 📂 Cybersecurity Portfolio
 
 This portfolio is organised around practical investigations and security projects.
+
 [More details on individual projects can be found here](./Investigations)
 
 ## 🔎 Completed Investigations
@@ -110,14 +112,14 @@ Performed a hands-on endpoint investigation using **Sysmon** and Windows Event V
 
 The investigation focused on:
 
-* Analysing **Sysmon Event ID 1 — Process Create**
-* Examining process command lines
-* Identifying parent and child processes
-* Reconstructing process relationships
-* Investigating PowerShell and `conhost.exe` activity
-* Reviewing process hashes and integrity levels
-* Assessing whether observed activity appeared suspicious or legitimate
-* Documenting investigation findings
+- Analysing **Sysmon Event ID 1 — Process Create**
+- Examining process command lines
+- Identifying parent and child processes
+- Reconstructing process relationships
+- Investigating PowerShell and `conhost.exe` activity
+- Reviewing process hashes and integrity levels
+- Assessing whether observed activity appeared suspicious or legitimate
+- Documenting investigation findings
 
 ### Process Tree
 
@@ -139,10 +141,10 @@ The investigation demonstrated how **process relationships and endpoint telemetr
 
 ### Tools Used
 
-* Sysmon
-* Windows Event Viewer
-* PowerShell
-* Windows Event Logs
+- Sysmon
+- Windows Event Viewer
+- PowerShell
+- Windows Event Logs
 
 > [Click here to view detailed report](./Investigations/Sysmon-Process-Investigation/README.md)
 
@@ -154,14 +156,14 @@ Performed a hands-on authentication investigation using **Windows Security Event
 
 The investigation focused on:
 
-* Analysing **Event ID 4624 — Successful Logon** and **Event ID 4625 — Failed Logon**
-* Extracting authentication data using PowerShell and XML
-* Investigating Windows logon types
-* Examining account, process, and source IP information
-* Reviewing service logons and cached interactive logons
-* Checking for failed authentication attempts and potential remote logons
-* Assessing whether observed activity appeared suspicious or legitimate
-* Documenting investigation findings
+- Analysing **Event ID 4624 — Successful Logon** and **Event ID 4625 — Failed Logon**
+- Extracting authentication data using PowerShell and XML
+- Investigating Windows logon types
+- Examining account, process, and source IP information
+- Reviewing service logons and cached interactive logons
+- Checking for failed authentication attempts and potential remote logons
+- Assessing whether observed activity appeared suspicious or legitimate
+- Documenting investigation findings
 
 ### Key Findings
 
@@ -173,9 +175,9 @@ The investigation demonstrated how **Windows authentication logs can be used to 
 
 ### Tools Used
 
-* Windows Security Event Logs
-* Windows PowerShell
-* Windows Event Viewer
+- Windows Security Event Logs
+- Windows PowerShell
+- Windows Event Viewer
 
 > [Click here to view detailed report](./Investigations/Windows-Event-Log-Investigation/README.md)
 
@@ -202,7 +204,7 @@ The controlled test generated multiple **Event ID 4625 — Failed Logon** record
 
 The events recorded **Logon Type 2 (Interactive)**, `svchost.exe` as the caller process, and `127.0.0.1` as the source address, consistent with the local authentication test.
 
-The results demonstrated how closely timed failed logon events can be identified and analysed using Windows Security logs and PowerShell. However, the records followed a single deliberate incorrect-password test and do not establish three independent attempts or confirm a real brute-force attack.
+The results demonstrated how closely timed failed logon events can be identified and analysed using Windows Security logs and PowerShell. However, the records followed a deliberate incorrect-password test and do not establish three independent attempts or confirm a real brute-force attack.
 
 The investigation demonstrated how **authentication event analysis, timeline reconstruction, and event correlation can support the investigation of suspicious logon patterns and potential brute-force activity**.
 
@@ -217,7 +219,7 @@ The investigation demonstrated how **authentication event analysis, timeline rec
 
 ---
 
-### Phishing Investigation
+### Phishing Email & Attachment Analysis
 
 Performed a hands-on phishing investigation using **PhishTool** and **VirusTotal** to analyse suspicious emails, investigate sender information, and assess potentially malicious attachments and URLs.
 
@@ -249,8 +251,86 @@ The investigation demonstrated how **email header analysis, URL investigation, f
 - Email header analysis
 - File hash analysis
 
-> The investigation findings and supporting evidence will be documented in the portfolio. Vendor detections are treated as evidence for assessment rather than proof of malicious behaviour in isolation.
-> > [Click here to view detailed report](./Investigations/Phishing-Email-Attachment-Analysis/README.md)
+> [Click here to view detailed report](./Investigations/Phishing-Email-Attachment-Analysis/README.md)
+
+---
+
+### Linux Investigation
+
+Performed a hands-on Linux investigation using **Linux Mint** and command-line utilities to examine authentication activity, system services, and user sessions.
+
+The investigation focused on:
+
+- Identifying the Linux distribution and system environment
+- Reviewing authentication records in `/var/log/auth.log`
+- Examining system boot and session information using `journalctl`
+- Checking SSH service status and whether the SSH server was installed
+- Searching authentication logs for failed and successful SSH login activity
+- Reviewing user authentication and session information
+- Using Linux command-line utilities to collect and assess system evidence
+- Documenting investigation findings
+
+### Key Findings
+
+The investigation confirmed that the environment was running **Linux Mint 22.3 XFCE**.
+
+The SSH service was inactive, and the OpenSSH server package was not installed. No failed-password or accepted-password SSH authentication records were identified in the reviewed logs.
+
+The available authentication records showed a local graphical login session. No clear indicators of suspicious SSH authentication activity were identified in the evidence examined.
+
+The investigation demonstrated how **Linux authentication logs, system services, and command-line tools can support basic security monitoring and investigation of authentication activity**.
+
+### Tools Used
+
+- Linux Mint 22.3 XFCE
+- Linux Terminal
+- `journalctl`
+- `/var/log/auth.log`
+- `systemctl`
+- `loginctl`
+- `dpkg`
+
+> [Click here to view detailed report](./Investigations/Linux-Investigation/README.md)
+
+---
+
+### Elastic SIEM Investigation
+
+Performed a hands-on SIEM investigation using **Elastic Security**, Elastic Agent, and Windows endpoint telemetry to examine authentication activity, identify failed logon patterns, and create a detection rule.
+
+The investigation focused on:
+
+- Deploying **Elastic Agent** and enrolling a Windows endpoint into Elastic Fleet
+- Configuring Windows integrations to collect Security, Sysmon, PowerShell, and Defender logs
+- Analysing **Event ID 4624 — Successful Logon** and **Event ID 4625 — Failed Logon**
+- Reviewing authentication activity and extracting relevant account and event information
+- Using **ES|QL** to filter and analyse Windows Security events
+- Creating a custom detection rule to identify two or more failed logons against the same account and host within a five-minute period
+- Reviewing rule execution history and investigating the generated alert
+- Documenting findings, detection results, and recommendations
+
+### Key Findings
+
+The investigation identified both successful and failed Windows authentication events collected through Elastic Agent.
+
+A custom **ES|QL detection rule** identified two failed logon events against the same local test account, `SOC-LabUser`, on the same endpoint within a five-minute period. This generated one **Medium-severity alert**, demonstrating that the rule could identify repeated authentication failures and surface them for further investigation.
+
+The failed logons were generated during controlled lab testing and do not indicate a confirmed external attack. The investigation demonstrated how endpoint telemetry, SIEM queries, and custom detection rules can be used to identify and investigate potentially suspicious authentication activity.
+
+The project demonstrated how **centralised log collection, event analysis, detection engineering, and alert investigation support security monitoring and incident detection**.
+
+### Tools Used
+
+- Elastic Cloud
+- Elastic Security
+- Elastic Fleet
+- Elastic Agent
+- ES|QL
+- Windows Security Event Logs
+- Windows Sysmon
+- Windows PowerShell
+
+> [Click here to view detailed report](./Investigations/Elastic-SIEM-Investigation/README.md)
 
 ---
 
@@ -258,20 +338,19 @@ The investigation demonstrated how **email header analysis, URL investigation, f
 
 ## SOC Home Lab
 
-Building a small security monitoring environment to develop practical SOC skills.
+Developing a small security monitoring environment to build on the practical experience gained through my investigations.
 
-The lab is focused on:
+The planned lab work focuses on:
 
-* Endpoint monitoring
-* Log collection
-* SIEM configuration
-* Security alert analysis
-* Detection engineering
-* Incident investigation
-* Security monitoring workflows
+- Endpoint monitoring
+- Log collection
+- SIEM configuration
+- Security alert analysis
+- Detection engineering
+- Incident investigation
+- Security monitoring workflows
 
 ---
-
 
 ## Threat Hunting Lab
 
@@ -279,15 +358,15 @@ Developing structured threat-hunting exercises using endpoint and network teleme
 
 The focus is on:
 
-* Developing hunting hypotheses
-* Searching security logs
-* Identifying suspicious behaviour
-* Investigating indicators
-* Correlating events
-* Establishing timelines
-* Mapping findings to **MITRE ATT&CK**
-* Documenting conclusions
-* Developing repeatable hunting workflows
+- Developing hunting hypotheses
+- Searching security logs
+- Identifying suspicious behaviour
+- Investigating indicators
+- Correlating events
+- Establishing timelines
+- Mapping findings to **MITRE ATT&CK**
+- Documenting conclusions
+- Developing repeatable hunting workflows
 
 ---
 
@@ -297,23 +376,23 @@ For my cybersecurity investigations, I'm developing a consistent analytical meth
 
 ```text
 Alert
-  ↓
+   ↓
 Collect Evidence
-  ↓
+   ↓
 Analyse Logs & Telemetry
-  ↓
+   ↓
 Establish Context
-  ↓
+   ↓
 Identify Indicators
-  ↓
+   ↓
 Determine Scope & Impact
-  ↓
+   ↓
 Map to MITRE ATT&CK
-  ↓
+   ↓
 Assess Findings
-  ↓
+   ↓
 Document Investigation
-  ↓
+   ↓
 Recommend Remediation
 ```
 
@@ -321,11 +400,11 @@ The aim is not simply to identify suspicious activity, but to understand **what 
 
 Where appropriate, investigations will distinguish between:
 
-* **Observed facts**
-* **Analytical assessment**
-* **Indicators of compromise**
-* **Potential impact**
-* **Recommended actions**
+- **Observed facts**
+- **Analytical assessment**
+- **Indicators of compromise**
+- **Potential impact**
+- **Recommended actions**
 
 This approach helps avoid jumping to conclusions and encourages evidence-based security analysis.
 
@@ -333,87 +412,67 @@ This approach helps avoid jumping to conclusions and encourages evidence-based s
 
 # 📊 What I'm Learning
 
-I'm actively developing my knowledge and practical skills in:
+I'm continuing to develop my knowledge and practical skills in:
 
 ### Security Operations
 
-* SIEM
-* Security monitoring
-* Alert triage
-* Log analysis
-* Incident investigation
-* Incident response
-* Detection engineering
+- SIEM
+- Security monitoring
+- Alert triage
+- Log analysis
+- Incident investigation
+- Incident response
+- Detection engineering
 
 ### Endpoint Security
 
-* Windows Event Logs
-* Sysmon
-* Process analysis
-* PowerShell security
-* Endpoint telemetry
-* Process trees
-* Authentication activity
+- Windows Event Logs
+- Sysmon
+- Process analysis
+- PowerShell security
+- Endpoint telemetry
+- Process trees
+- Authentication activity
 
 ### Threat Detection & Hunting
 
-* Detection logic
-* Threat hunting
-* Indicators of compromise
-* Attack timelines
-* MITRE ATT&CK
-* Suspicious behaviour analysis
+- Detection logic
+- Threat hunting
+- Indicators of compromise
+- Attack timelines
+- MITRE ATT&CK
+- Suspicious behaviour analysis
 
 ### Network & Security Fundamentals
 
-* Network traffic analysis
-* Network security
-* Linux security
-* Digital forensics fundamentals
+- Network traffic analysis
+- Network security
+- Linux security
+- Digital forensics fundamentals
 
 ### Automation & Scripting
 
-* PowerShell
-* Python
-* Security automation
-* Data analysis
+- PowerShell
+- Python
+- Security automation
+- Data analysis
 
 ---
-
-# 📈 Current Development
-
-I'm continuing to build practical experience through:
-
-* Hands-on SOC labs
-* Windows security investigations
-* SIEM exercises
-* Detection engineering
-* Threat-hunting scenarios
-* Incident-response exercises
-* Network analysis
-* Security documentation
-* MITRE ATT&CK mapping
-* Security automation
-
-As projects are completed, they will be added to this repository with supporting evidence, investigation methodology, findings, and conclusions.
-
----
-
 
 # 📌 Portfolio Roadmap
 
 As I continue developing my skills, this repository will grow to include:
 
-* 🔎 Security investigations
-* 🖥️ SOC lab environments
-* 🚨 Detection use cases
-* 📊 SIEM queries
-* 🕵️ Threat-hunting exercises
-* 🧪 Incident-response scenarios
-* 📝 Investigation reports
-* 🛡️ MITRE ATT&CK mappings
-* ⚙️ Security automation projects
-* 📚 Technical notes and learning documentation
+- 🔎 Security investigations
+- 🖥️ SOC lab environments
+- 🚨 Detection use cases
+- 📊 SIEM queries
+- 🕵️ Threat-hunting exercises
+- 🧪 Incident-response scenarios
+- 📝 Investigation reports
+- 🛡️ MITRE ATT&CK mappings
+- ⚙️ Security automation projects
+- 📚 Technical notes and learning documentation
 
 ---
 
