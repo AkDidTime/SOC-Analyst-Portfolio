@@ -244,3 +244,5 @@ This investigation provided practical experience deploying a cloud-based SIEM, c
 I also gained experience creating an ES|QL detection rule, reviewing its execution history and investigating the alert it generated.
 
 The project demonstrated how endpoint logs can be used to identify repeated authentication failures and generate alerts for further investigation.
+
+> [Return To Investigations](../README.md)
