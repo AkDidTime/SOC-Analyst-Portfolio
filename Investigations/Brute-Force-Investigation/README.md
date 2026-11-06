@@ -85,3 +85,5 @@ Screenshots and supporting evidence will be added to the `evidence/` directory.
 - Failed logon events in Event Viewer
 - Detailed Event ID `4625` record
 - PowerShell event timeline and interval analysis
+
+> [Return To Investigations](../README.md)
