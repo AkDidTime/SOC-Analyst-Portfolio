@@ -4,7 +4,7 @@
 
 I'm an aspiring **SOC Analyst** building a career in cybersecurity, with a background in IT Support and a **T Level in Digital Production, Design and Development**, awarded by Pearson.
 
-As part of my T Level, I completed **two years of industry placement in IT Support**, gaining practical experience in a professional IT environment. My experience included endpoint management, patch remediation, remote administration, troubleshooting, PowerShell, technical documentation, and user support.
+As part of my T Level, I completed **two years of industry placement in IT Support**, gaining practical experience in a professional IT environment. My experience included user support, endpoint management, Microsoft 365, Microsoft Entra ID, remote administration, patch management and remediation, PowerShell, and technical documentation.
 
 I'm now building on this foundation through hands-on cybersecurity labs, security investigations, and technical projects focused on **Security Operations, security monitoring, detection, log analysis, incident response, and threat hunting**.
 
@@ -16,7 +16,7 @@ I'm now building on this foundation through hands-on cybersecurity labs, securit
 
 **Pearson**
 
-- Completed a 2-year T Level Course with a final grade of **Distinction**
+- Completed a 2-year T Level course with a final grade of **Distinction**
 - Completed 2 years of industry placement as part of the qualification
 - Developed practical technical, problem-solving, and professional skills
 - Gained real-world experience working within a professional IT environment
@@ -27,23 +27,25 @@ I'm now building on this foundation through hands-on cybersecurity labs, securit
 
 ### IT Support — 2-Year Industry Placement
 
-During my industry placement, I gained hands-on experience supporting users, managing endpoints, troubleshooting technical issues, and working within a professional IT environment.
+During my industry placement, I gained hands-on experience supporting users, managing endpoints, troubleshooting technical issues, and working with Microsoft 365 and remote administration tools.
 
 A key area of my experience was **endpoint patch management and remediation**.
 
-### Patch Management & Remediation
+### IT Support, Identity Management & Patch Management
 
-- Used **ConnectWise Manage** to monitor endpoints and identify machines with failed patch deployments
-- Used **ConnectWise Automate** to locate and remotely access affected machines
-- Investigated failed patch deployments and troubleshot endpoint issues
-- Used **PowerShell** to manually download and apply Microsoft updates using their KB IDs
-- Recorded patches that repeatedly failed across multiple machines
-- Documented recurring patch failures, including patch names and KB IDs
-- Investigated patterns in recurring endpoint issues to support troubleshooting and remediation
+- Used **Microsoft 365 and Microsoft Entra ID** to support user account administration, including password resets and generating Temporary Access Passes (TAPs).
+- Used **Backstage** to remotely access client machines and carry out technical tasks, including Windows KB updates.
+- Used **ConnectWise Manage** to monitor endpoints and identify machines with failed patch deployments.
+- Used **ConnectWise Automate** to locate and remotely access affected machines.
+- Investigated failed patch deployments and troubleshot endpoint issues.
+- Used **PowerShell** to manually download and apply Microsoft updates using their KB IDs.
+- Recorded recurring patch failures across multiple machines, documenting patch names and KB IDs.
+- Investigated patterns in recurring endpoint issues to support troubleshooting and remediation.
+- Provided user support and documented technical issues and work carried out.
 
 This experience developed my practical skills in:
 
-**Endpoint Management · Troubleshooting · Remote Administration · PowerShell · Patch Management · Technical Documentation · Problem Solving**
+**Microsoft 365 · Microsoft Entra ID · Temporary Access Passes · Backstage · ConnectWise Manage · ConnectWise Automate · Endpoint Management · Remote Administration · PowerShell · Patch Management · Technical Documentation**
 
 These skills have provided a strong technical foundation that I'm now applying to cybersecurity and Security Operations.
 
@@ -54,7 +56,7 @@ These skills have provided a strong technical foundation that I'm now applying t
 I'm developing practical skills across:
 
 - Security Operations (SOC)
-- SIEM & Log Analysis
+- SIEM and Log Analysis
 - Security Monitoring
 - Threat Detection
 - Incident Response
@@ -72,15 +74,18 @@ My goal is to develop the ability to investigate security events from **initial 
 
 ## Tools & Technologies
 
-### Professional / Industry Experience
+### IT Support & Industry Experience
 
-- **Microsoft Office**
+- **Microsoft 365**
+- **Microsoft Entra ID**
+- **Backstage**
 - **ConnectWise Manage**
 - **ConnectWise Automate**
 - **PowerShell**
 - **Windows**
 - Endpoint Management
 - Remote Administration
+- Patch Management and Remediation
 
 ### Cybersecurity Labs & Projects
 
@@ -95,7 +100,7 @@ My goal is to develop the ability to investigate security events from **initial 
 - **VirusTotal**
 - **Git & GitHub**
 
-I'm continuing to expand this toolkit through hands-on labs, investigations, and security-focused projects.
+I'm continuing to develop this toolkit through hands-on labs, investigations, and security-focused projects.
 
 ---
 
@@ -439,6 +444,13 @@ I'm continuing to develop my knowledge and practical skills in:
 - Linux security
 - Digital forensics fundamentals
 
+### Identity & Access Management
+
+- Microsoft Entra ID
+- User password resets
+- Temporary Access Passes (TAPs)
+- Account access support
+
 ### Automation & Scripting
 
 - PowerShell
@@ -472,5 +484,3 @@ I'm building this portfolio to demonstrate my development toward a career in **S
 My focus is on developing the mindset of a SOC Analyst:
 
 > **Investigate first. Analyse the evidence. Establish context. Scope the activity. Document the findings. Recommend appropriate action.**
-
----
