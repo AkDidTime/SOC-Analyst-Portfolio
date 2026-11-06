@@ -74,11 +74,11 @@ My goal is to develop the ability to investigate security events from **initial 
 
 ### Professional / Industry Experience
 
+- **Microsoft Office**
 - **ConnectWise Manage**
 - **ConnectWise Automate**
 - **PowerShell**
 - **Windows**
-- **Microsoft Office**
 - Endpoint Management
 - Remote Administration
 
