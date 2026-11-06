@@ -2,7 +2,7 @@
 
 ## Overview
 
-This investigation focused on reviewing Windows Security Event Logs to understand authentication activity on a Windows 10 endpoint. The aim was to identify successful and failed logon events, examine the different logon types, and determine whether any activity appeared unusual.
+This investigation focused on reviewing Windows Security Event Logs to understand authentication activity on a Windows 10 endpoint. The aim was to identify successful and failed logon events, examine different logon types, and determine whether any activity appeared unusual.
 
 The investigation used **Windows Event Viewer** and **PowerShell** to examine Security Event IDs `4624` and `4625`, with particular attention to the account, logon type, process information and source network address recorded in each event.
 
@@ -13,7 +13,7 @@ The investigation used **Windows Event Viewer** and **PowerShell** to examine Se
 - Review failed logon events (Event ID `4625`).
 - Examine the processes associated with selected authentication events.
 - Identify any unusual authentication activity within the available logs.
-- Document findings and any limitations of the investigation.
+- Document findings and limitations of the investigation.
 
 ## Investigation Environment
 
@@ -85,10 +85,7 @@ The query returned no Event ID `4625` records in the available Security log at t
 
 ### 1. Service Logon – Logon Type 5
 
-<details>
-</details>
-
-![Event ID 4624 - Service Logon](./evidence/01-4624-service-logon.png)
+![Service Logon Evidence](Evidence/01-4624-service-logon.png)
 
 A successful logon event was identified with Logon Type `5`, associated with the `SYSTEM` account and the `services.exe` process.
 
@@ -98,7 +95,7 @@ No suspicious behaviour was identified from the event reviewed.
 
 ### 2. Logon Type Analysis
 
-![Event ID 4624 - Logon Type Analysis](./evidence/02-4624-logon-type-analysis.png)
+![Logon Type Analysis Evidence](Evidence/02-4624-logon-type-analysis.png)
 
 The review identified several successful logon types:
 
@@ -112,7 +109,7 @@ This means no network or Remote Desktop logons of those types were present in th
 
 ### 3. Failed Logon Review – Event ID 4625
 
-![Event ID 4625 - No Failed Logons](./evidence/03-4625-no-failed-logons.png)
+![Failed Logon Query Evidence](Evidence/03-4625-no-failed-logons.png)
 
 The Security log query returned no Event ID `4625` records during the investigation.
 
@@ -120,7 +117,7 @@ This indicates that no failed logon events were available in the retained log da
 
 ### 4. Cached Interactive Logon – Logon Type 11
 
-![Event ID 4624 - Cached Interactive Logon](./evidence/04-4624-cached-interactive.png)
+![Cached Interactive Logon Evidence](Evidence/04-4624-cached-interactive.png)
 
 A successful logon event was identified with Logon Type `11`, associated with the `svchost.exe` process and the local loopback address `127.0.0.1`.
 
@@ -152,5 +149,5 @@ However, this conclusion is limited to the Security log records available and th
 
 ## References
 
-- [Microsoft Learn – Audit logon events](https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/basic-audit-logon-events) – Event IDs 4624 and 4625, audit configuration and logon type descriptions.
-- [Microsoft Learn – Event ID 4624: An account was successfully logged on](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/auditing/event-4624) – Successful logon event fields and logon type explanations.
+- [Microsoft – Audit Logon Events](https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/basic-audit-logon-events)
+- [Microsoft – Event ID 4624](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/auditing/event-4624)
