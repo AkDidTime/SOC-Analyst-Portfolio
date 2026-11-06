@@ -156,3 +156,4 @@ The process tree showed explorer.exe launching PowerShell, which in turn spawned
 
 The investigation demonstrated how Sysmon process creation telemetry can be used to analyse process relationships and provide endpoint context when assessing potentially suspicious activity.
 
+> [Return To Investigations](../README.md)
