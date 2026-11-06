@@ -10,13 +10,13 @@ I'm now building on this foundation through hands-on cybersecurity labs, securit
 
 ---
 
-## 🎓 Education
+## Education
 
 ### T Level — Digital Production, Design and Development
 
 **Pearson**
 
-- Completed a 2-year T Level programme
+- Completed a 2-year T Level Course with a final grade of **Distinction**
 - Completed 2 years of industry placement as part of the qualification
 - Developed practical technical, problem-solving, and professional skills
 - Gained real-world experience working within a professional IT environment
