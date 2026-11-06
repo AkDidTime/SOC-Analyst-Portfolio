@@ -147,8 +147,6 @@ The investigation demonstrated how **process relationships and endpoint telemetr
 - PowerShell
 - Windows Event Logs
 
-> [Full Report Here](./Investigations/Sysmon-Process-Investigation/README.md)
-
 ---
 
 ### Windows Event Log Investigation
@@ -179,8 +177,6 @@ The investigation demonstrated how **Windows authentication logs can be used to 
 - Windows Security Event Logs
 - Windows PowerShell
 - Windows Event Viewer
-
-> [Full Report Here](./Investigations/Windows-Event-Log-Investigation/README.md)
 
 ---
 
@@ -216,8 +212,6 @@ The investigation demonstrated how **authentication event analysis, timeline rec
 - Windows PowerShell
 - Local Windows user accounts
 
-> [Full Report Here](./Investigations/Brute-Force-Investigation/README.md)
-
 ---
 
 ### Phishing Email & Attachment Analysis
@@ -251,8 +245,6 @@ The investigation demonstrated how **email header analysis, URL investigation, f
 - VirusTotal
 - Email header analysis
 - File hash analysis
-
-> [Full Report Here](./Investigations/Phishing-Email-Attachment-Analysis/README.md)
 
 ---
 
@@ -291,8 +283,6 @@ The investigation demonstrated how **Linux authentication logs, system services,
 - `loginctl`
 - `dpkg`
 
-> [Full Report Here](./Investigations/Linux-Authentication-Log-Investigation/README.md)
-
 ---
 
 ### Elastic SIEM Investigation
@@ -330,8 +320,6 @@ The project demonstrated how **centralised log collection, event analysis, detec
 - Windows Security Event Logs
 - Windows Sysmon
 - Windows PowerShell
-
-> [Full Report Here](./Investigations/Elastic-SIEM-Investigation/README.md)
 
 ---
 
