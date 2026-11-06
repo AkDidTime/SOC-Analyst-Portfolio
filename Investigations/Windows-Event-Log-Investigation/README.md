@@ -151,3 +151,5 @@ However, this conclusion is limited to the Security log records available and th
 
 - [Microsoft – Audit Logon Events](https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/basic-audit-logon-events)
 - [Microsoft – Event ID 4624](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/auditing/event-4624)
+
+> [Return To Investigations](../README.md)
