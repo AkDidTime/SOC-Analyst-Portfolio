@@ -82,3 +82,5 @@ Screenshots of the terminal commands and relevant outputs are stored in the `evi
 - Investigating system journal warnings
 - Checking SSH service configuration and status
 - Documenting findings and investigation limitations
+
+> [Return To Investigations](../README.md)
