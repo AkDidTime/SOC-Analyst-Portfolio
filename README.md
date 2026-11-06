@@ -23,7 +23,7 @@ I'm now building on this foundation through hands-on cybersecurity labs, securit
 
 ---
 
-## 💼 Industry Experience
+## Industry Experience
 
 ### IT Support — 2-Year Industry Placement
 
@@ -49,7 +49,7 @@ These skills have provided a strong technical foundation that I'm now applying t
 
 ---
 
-## 🔐 Cybersecurity Focus
+## Cybersecurity Focus
 
 I'm developing practical skills across:
 
@@ -70,7 +70,7 @@ My goal is to develop the ability to investigate security events from **initial 
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 ### Professional / Industry Experience
 
