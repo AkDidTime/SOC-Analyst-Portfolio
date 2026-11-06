@@ -190,3 +190,5 @@ If this email were found in a real organisation, I would recommend:
 * Sandbox behaviour analysis
 * IOC identification and documentation
 * Evidence-based conclusions and incident-response recommendations
+
+> [Return To Investigations](../README.md)
