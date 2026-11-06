@@ -78,6 +78,7 @@ My goal is to develop the ability to investigate security events from **initial 
 - **ConnectWise Automate**
 - **PowerShell**
 - **Windows**
+- ** Microsoft Entra ID**
 - Endpoint Management
 - Remote Administration
 
