@@ -147,7 +147,7 @@ The investigation demonstrated how **process relationships and endpoint telemetr
 - PowerShell
 - Windows Event Logs
 
-> [Click here to view detailed report](./Investigations/Sysmon-Process-Investigation/README.md)
+> [Full Report Here](./Investigations/Sysmon-Process-Investigation/README.md)
 
 ---
 
@@ -180,7 +180,7 @@ The investigation demonstrated how **Windows authentication logs can be used to 
 - Windows PowerShell
 - Windows Event Viewer
 
-> [Click here to view detailed report](./Investigations/Windows-Event-Log-Investigation/README.md)
+> [Full Report Here](./Investigations/Windows-Event-Log-Investigation/README.md)
 
 ---
 
@@ -216,7 +216,7 @@ The investigation demonstrated how **authentication event analysis, timeline rec
 - Windows PowerShell
 - Local Windows user accounts
 
-> [Click here to view detailed report](./Investigations/Brute-Force-Investigation/README.md)
+> [Full Report Here](./Investigations/Brute-Force-Investigation/README.md)
 
 ---
 
@@ -252,7 +252,7 @@ The investigation demonstrated how **email header analysis, URL investigation, f
 - Email header analysis
 - File hash analysis
 
-> [Click here to view detailed report](./Investigations/Phishing-Email-Attachment-Analysis/README.md)
+> [Full Report Here](./Investigations/Phishing-Email-Attachment-Analysis/README.md)
 
 ---
 
@@ -291,7 +291,7 @@ The investigation demonstrated how **Linux authentication logs, system services,
 - `loginctl`
 - `dpkg`
 
-> [Click here to view detailed report](./Investigations/Linux-Investigation/README.md)
+> [Full Report Here](./Investigations/Linux-Authentication-Log-Investigation/README.md)
 
 ---
 
@@ -331,7 +331,7 @@ The project demonstrated how **centralised log collection, event analysis, detec
 - Windows Sysmon
 - Windows PowerShell
 
-> [Click here to view detailed report](./Investigations/Elastic-SIEM-Investigation/README.md)
+> [Full Report Here](./Investigations/Elastic-SIEM-Investigation/README.md)
 
 ---
 
@@ -371,7 +371,7 @@ The focus is on:
 
 ---
 
-# 🧪 Security Investigation Methodology
+# Security Investigation Methodology
 
 For my cybersecurity investigations, I'm developing a consistent analytical methodology:
 
@@ -411,7 +411,7 @@ This approach helps avoid jumping to conclusions and encourages evidence-based s
 
 ---
 
-# 📊 What I'm Learning
+# What I'm Learning
 
 I'm continuing to develop my knowledge and practical skills in:
 
@@ -460,24 +460,24 @@ I'm continuing to develop my knowledge and practical skills in:
 
 ---
 
-# 📌 Portfolio Roadmap
+# Portfolio Roadmap
 
 As I continue developing my skills, this repository will grow to include:
 
-- 🔎 Security investigations
-- 🖥️ SOC lab environments
-- 🚨 Detection use cases
-- 📊 SIEM queries
-- 🕵️ Threat-hunting exercises
-- 🧪 Incident-response scenarios
-- 📝 Investigation reports
-- 🛡️ MITRE ATT&CK mappings
-- ⚙️ Security automation projects
-- 📚 Technical notes and learning documentation
+- Security investigations
+- SOC lab environments
+- Detection use cases
+- SIEM queries
+- Threat-hunting exercises
+- Incident-response scenarios
+- Investigation reports
+- MITRE ATT&CK mappings
+- Security automation projects
+- Technical notes and learning documentation
 
 ---
 
-## 🚀 Portfolio Objective
+## Portfolio Objective
 
 I'm building this portfolio to demonstrate my development toward a career in **Security Operations** through practical, evidence-based cybersecurity work.
 
